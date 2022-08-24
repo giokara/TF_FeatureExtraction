@@ -1,0 +1,14 @@
+contextlib2==0.6.0.post1
+h5py==2.10.0
+h5py.-debian-h5py-serial==2.10.0
+numpy==1.23.2
+scikit-learn==0.23.2
+scipy==1.6.0
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorflow==2.10.0rc0
+tensorflow-cpu-aws==2.10.0rc0
+tensorflow-estimator==2.9.0
+tensorflow-io-gcs-filesystem==0.26.0
+tf-slim==1.1.0
