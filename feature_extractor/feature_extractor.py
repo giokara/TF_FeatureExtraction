@@ -21,6 +21,7 @@ from nets import nets_factory
 from preprocessing import preprocessing_factory
 import tf_slim as slim
 
+tf.disable_eager_execution()
 
 class FeatureExtractor(object):
 
