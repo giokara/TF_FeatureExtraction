@@ -16,10 +16,10 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from nets import nets_factory
 from preprocessing import preprocessing_factory
-slim = tf.contrib.slim
+import tf_slim as slim
 
 
 class FeatureExtractor(object):
